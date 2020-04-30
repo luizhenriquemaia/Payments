@@ -1,0 +1,34 @@
+/* Variables */
+:root {
+    --primary: black;
+    --secundary: white;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/Roboto-Regular.ttf');
+    font-family: 'Butler-Regular';
+    src: url('fonts/Butler_Regular.otf');
+}
+
+/* Basic Styles */
+header, body, footer {
+    font-family: 'Roboto-Regular';
+}
+
+.title {
+    font-family: 'Butler-Regular';
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.navbar-nav {
+    color: var(--secundary);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
